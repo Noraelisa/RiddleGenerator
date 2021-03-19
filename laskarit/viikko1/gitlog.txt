@@ -1,0 +1,436 @@
+commit 9bde4e41d7469fb665f02e326c368c4285994349
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 14:34:19 2021 +0200
+
+    muokattu ja poistettu
+
+ tiedostoja/file2.txt                 | 0
+ tiedostoja/{file1.txt => file22.txt} | 0
+ tiedostoja/file3.txt                 | 1 +
+ 3 files changed, 1 insertion(+)
+
+commit d40eca7ae273ad0b0870c99bfedc3afb6f19bb80
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 14:32:24 2021 +0200
+
+     poistettu virhe
+
+ tiedostoja/file3 | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 4cb7f6663573c0d2ffcc52631dbadb5190da3411
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 14:32:01 2021 +0200
+
+    uusi vahinko :D
+
+ tiedostoja/file3 | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit ff5ab7d0b9cf1cdf9a7a57209594d82e7ea2c912
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 14:27:32 2021 +0200
+
+    vahinko
+
+ file1.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 7973be392e3854f9157ee7980aee1e1b8c37278b
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 14:24:16 2021 +0200
+
+    tiedostojen päätteet muokattu
+
+ tiedostoja/{file1 => file1.txt} | 0
+ tiedostoja/{file2 => file2.txt} | 0
+ tiedostoja/{file3 => file3.txt} | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 44c5b86e5c1fb6fd6a888651525d3ad9f5f816f7
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 14:10:34 2021 +0200
+
+    lisätty hakemisto ja tiedostoja
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit f45e3457eeb64a6f3d957493e6c3327a54e15a83
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 14:03:33 2021 +0200
+
+    lisäykset ja poistot
+
+ eka.txt    | 2 ++
+ kolmas.txt | 2 +-
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+
+commit 05a9a2887b53600f2dbb5b2fdf1119d4066a1e46
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 14:01:30 2021 +0200
+
+    tiedosto.txt nimi muutettu
+
+ tiedosto.txt => eka.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 5bfb57b5a3e62d87203587c6ec6ea01f39a1e564
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 13:58:12 2021 +0200
+
+    del toinen.txt
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit fa00a3d0858f2ca043fbf7e9492f8d6b3d7acdf2
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 13:54:19 2021 +0200
+
+    tiedosto.txt uudelleen modi
+
+ tiedosto.txt | 9 ++++++++-
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+
+commit 2c03e56864128f28fd844d973a8d7549552281a8
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 13:50:56 2021 +0200
+
+    tiedosto.txt muokkaus
+
+ tiedosto.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit d705db18932a15a70e8c09486bbbae71d4b1ce3d
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 13:41:19 2021 +0200
+
+    muokkaus ja lisäys
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit 3f43041b516be6f425feea2e73ec63b8ce532085
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 13:39:24 2021 +0200
+
+    kolmas.txt luotu
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit d648364cc9e0971444ab0e89c2a3f57949151f63
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 13:35:13 2021 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit 908876b7f4560e9d9325f185c07fca8fa7f5cdd4
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 13:32:20 2021 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+noraheikkila@Noras-MacBook-Pro ot_viikko1 % ls
+eka.txt		file1.txt	kolmas.txt	tiedostoja
+noraheikkila@Noras-MacBook-Pro ot_viikko1 % cd tiedostoja
+noraheikkila@Noras-MacBook-Pro tiedostoja % git log --stat | cat
+commit 9bde4e41d7469fb665f02e326c368c4285994349
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 14:34:19 2021 +0200
+
+    muokattu ja poistettu
+
+ tiedostoja/file2.txt                 | 0
+ tiedostoja/{file1.txt => file22.txt} | 0
+ tiedostoja/file3.txt                 | 1 +
+ 3 files changed, 1 insertion(+)
+
+commit d40eca7ae273ad0b0870c99bfedc3afb6f19bb80
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 14:32:24 2021 +0200
+
+     poistettu virhe
+
+ tiedostoja/file3 | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 4cb7f6663573c0d2ffcc52631dbadb5190da3411
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 14:32:01 2021 +0200
+
+    uusi vahinko :D
+
+ tiedostoja/file3 | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit ff5ab7d0b9cf1cdf9a7a57209594d82e7ea2c912
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 14:27:32 2021 +0200
+
+    vahinko
+
+ file1.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 7973be392e3854f9157ee7980aee1e1b8c37278b
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 14:24:16 2021 +0200
+
+    tiedostojen päätteet muokattu
+
+ tiedostoja/{file1 => file1.txt} | 0
+ tiedostoja/{file2 => file2.txt} | 0
+ tiedostoja/{file3 => file3.txt} | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 44c5b86e5c1fb6fd6a888651525d3ad9f5f816f7
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 14:10:34 2021 +0200
+
+    lisätty hakemisto ja tiedostoja
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit f45e3457eeb64a6f3d957493e6c3327a54e15a83
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 14:03:33 2021 +0200
+
+    lisäykset ja poistot
+
+ eka.txt    | 2 ++
+ kolmas.txt | 2 +-
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+
+commit 05a9a2887b53600f2dbb5b2fdf1119d4066a1e46
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 14:01:30 2021 +0200
+
+    tiedosto.txt nimi muutettu
+
+ tiedosto.txt => eka.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 5bfb57b5a3e62d87203587c6ec6ea01f39a1e564
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 13:58:12 2021 +0200
+
+    del toinen.txt
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit fa00a3d0858f2ca043fbf7e9492f8d6b3d7acdf2
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 13:54:19 2021 +0200
+
+    tiedosto.txt uudelleen modi
+
+ tiedosto.txt | 9 ++++++++-
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+
+commit 2c03e56864128f28fd844d973a8d7549552281a8
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 13:50:56 2021 +0200
+
+    tiedosto.txt muokkaus
+
+ tiedosto.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit d705db18932a15a70e8c09486bbbae71d4b1ce3d
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 13:41:19 2021 +0200
+
+    muokkaus ja lisäys
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit 3f43041b516be6f425feea2e73ec63b8ce532085
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 13:39:24 2021 +0200
+
+    kolmas.txt luotu
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit d648364cc9e0971444ab0e89c2a3f57949151f63
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 13:35:13 2021 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit 908876b7f4560e9d9325f185c07fca8fa7f5cdd4
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 13:32:20 2021 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+noraheikkila@Noras-MacBook-Pro tiedostoja % cd ~
+noraheikkila@Noras-MacBook-Pro ~ % cd desktop/ohte/ot_viikko1
+noraheikkila@Noras-MacBook-Pro ot_viikko1 % git log --stat | cat      
+commit 9bde4e41d7469fb665f02e326c368c4285994349
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 14:34:19 2021 +0200
+
+    muokattu ja poistettu
+
+ tiedostoja/file2.txt                 | 0
+ tiedostoja/{file1.txt => file22.txt} | 0
+ tiedostoja/file3.txt                 | 1 +
+ 3 files changed, 1 insertion(+)
+
+commit d40eca7ae273ad0b0870c99bfedc3afb6f19bb80
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 14:32:24 2021 +0200
+
+     poistettu virhe
+
+ tiedostoja/file3 | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 4cb7f6663573c0d2ffcc52631dbadb5190da3411
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 14:32:01 2021 +0200
+
+    uusi vahinko :D
+
+ tiedostoja/file3 | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit ff5ab7d0b9cf1cdf9a7a57209594d82e7ea2c912
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 14:27:32 2021 +0200
+
+    vahinko
+
+ file1.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 7973be392e3854f9157ee7980aee1e1b8c37278b
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 14:24:16 2021 +0200
+
+    tiedostojen päätteet muokattu
+
+ tiedostoja/{file1 => file1.txt} | 0
+ tiedostoja/{file2 => file2.txt} | 0
+ tiedostoja/{file3 => file3.txt} | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 44c5b86e5c1fb6fd6a888651525d3ad9f5f816f7
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 14:10:34 2021 +0200
+
+    lisätty hakemisto ja tiedostoja
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit f45e3457eeb64a6f3d957493e6c3327a54e15a83
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 14:03:33 2021 +0200
+
+    lisäykset ja poistot
+
+ eka.txt    | 2 ++
+ kolmas.txt | 2 +-
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+
+commit 05a9a2887b53600f2dbb5b2fdf1119d4066a1e46
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 14:01:30 2021 +0200
+
+    tiedosto.txt nimi muutettu
+
+ tiedosto.txt => eka.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 5bfb57b5a3e62d87203587c6ec6ea01f39a1e564
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 13:58:12 2021 +0200
+
+    del toinen.txt
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit fa00a3d0858f2ca043fbf7e9492f8d6b3d7acdf2
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 13:54:19 2021 +0200
+
+    tiedosto.txt uudelleen modi
+
+ tiedosto.txt | 9 ++++++++-
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+
+commit 2c03e56864128f28fd844d973a8d7549552281a8
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 13:50:56 2021 +0200
+
+    tiedosto.txt muokkaus
+
+ tiedosto.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit d705db18932a15a70e8c09486bbbae71d4b1ce3d
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 13:41:19 2021 +0200
+
+    muokkaus ja lisäys
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit 3f43041b516be6f425feea2e73ec63b8ce532085
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 13:39:24 2021 +0200
+
+    kolmas.txt luotu
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit d648364cc9e0971444ab0e89c2a3f57949151f63
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 13:35:13 2021 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit 908876b7f4560e9d9325f185c07fca8fa7f5cdd4
+Author: Nora Elisa <nora.heikkila@helsinki.fi>
+Date:   Fri Mar 19 13:32:20 2021 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
