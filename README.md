@@ -9,3 +9,4 @@
     
 ### git pull kokeilu, näkyykö?    
 ### näkyy, näkyykö git push?
+### muutos, ei push
