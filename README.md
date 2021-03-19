@@ -7,6 +7,4 @@
     * Lista tähän alas
     * Listan sisältöä
     
-### git pull kokeilu, näkyykö?    
-### näkyy, näkyykö git push?
-### muutos, ei push
+### branchin uudelleen nimeämis kokeilu
