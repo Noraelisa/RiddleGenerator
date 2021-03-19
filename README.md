@@ -4,7 +4,6 @@
 
 ### Tähän kirjoitetaan projektin sisältö
 
-    * Lista tähän alas
+    * Lista tähän
     * Listan sisältöä
     
-### branchin uudelleen nimeämis kokeilu
