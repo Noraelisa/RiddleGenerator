@@ -2,4 +2,4 @@
 
 | päivä | tunnit | tehtävät |
 | :----:|:-----| :-----|
-| 29.3. | 3    | Alustava määrittelydokumentti sekä työaikakirjanpidon luonti |
+| 29.3. | 3    | Alustavan määrittelydokumentin sekä työaikakirjanpidon luonti |
