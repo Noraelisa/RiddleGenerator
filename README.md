@@ -4,6 +4,8 @@
 
 ### Dokumentaatio
 
+- [Työaikakirjanpito](https://github.com/Noraelisa/ot-harjoitustyo/blob/main/RiddleGen/dokumentaatio/tyoaikakirjanpito.md)
+
 - [Vaatimusmäärittely](https://github.com/Noraelisa/ot-harjoitustyo/blob/main/RiddleGen/dokumentaatio/vaatimusmaarittely.md)
 
 ## Laskarit
