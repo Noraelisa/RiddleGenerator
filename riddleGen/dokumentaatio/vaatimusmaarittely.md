@@ -1,0 +1,5 @@
+# Vaatimusmaarittely
+
+## Sovelluksen tarkoitus
+
+ 
