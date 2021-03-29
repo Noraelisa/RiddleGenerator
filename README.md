@@ -1,9 +1,11 @@
 # ot-harjoitustyo
 
-## Ei vielä projektia valittu
+## Laskarit
 
-### Tähän kirjoitetaan projektin sisältö
+### viikko1
 
-    * Lista tähän
-    * Listan sisältöä
+    * https://github.com/Noraelisa/ot-harjoitustyo/blob/main/laskarit/viikko1/gitlog.txt
+    * https://github.com/Noraelisa/ot-harjoitustyo/blob/main/laskarit/viikko1/komentorivi.txt
+
+### viikko2    
     
