@@ -10,7 +10,6 @@ class RiddleRepository:
     def find_all(self):
         return self._read()
 
-
     def create(self, riddle):
         riddles = self.find_all()
 

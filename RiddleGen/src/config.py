@@ -8,4 +8,5 @@ try:
 except FileNotFoundError:
     pass
 
-RIDDLES_FILENAME = os.getenv("RIDDLES_FILENAME") or "default bar"
+RIDDLES_FILENAME = os.getenv("RIDDLES_FILENAME") or "riddles.csv"
+RIDDLES_FILE_PATH = os.path.join(dirname, '..', 'data', RIDDLES_FILENAME)
