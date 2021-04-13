@@ -56,9 +56,3 @@ class RiddleRepository:
 dirname = os.path.dirname(__file__)
 
 riddle_repository = RiddleRepository(os.path.join(dirname, "..", "data", "riddles.csv"))
-
-riddle_repository.create(Riddle("Learn the repository pattern"))
-
-riddles = riddle_repository.find_all()
-
-print(riddles)
