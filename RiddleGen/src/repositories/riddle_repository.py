@@ -1,15 +1,6 @@
-import entities.riddle import Riddle
+from entities.riddle import Riddle
 import os
-
-dirname = os.path.dirname(__file__)
-
-riddle_repository = RiddleRepository(os.path.join(dirname, "..", "data", "riddles.csv"))
-
-riddle_repository.create(Riddle("Learn the repository pattern"))
-
-riddles = riddle_repository.find_all()
-
-print(riddles)
+from pathlib import Path
 
 class RiddleRepository:
 
@@ -61,3 +52,13 @@ class RiddleRepository:
 
                 file.write(row+"\n")    
 
+
+dirname = os.path.dirname(__file__)
+
+riddle_repository = RiddleRepository(os.path.join(dirname, "..", "data", "riddles.csv"))
+
+riddle_repository.create(Riddle("Learn the repository pattern"))
+
+riddles = riddle_repository.find_all()
+
+print(riddles)

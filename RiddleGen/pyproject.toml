@@ -8,9 +8,11 @@ authors = ["Nora Elisa <nora.heikkila@helsinki.fi>"]
 python = "^3.9"
 cowsay = "^3.0"
 invoke = "^1.5.0"
+python-dotenv = "^0.17.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.3"
+pytest-dotenv = "^0.5.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
