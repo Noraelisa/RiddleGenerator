@@ -4,3 +4,4 @@ class Riddle:
 
         self.content = content
         self.id = id
+ 

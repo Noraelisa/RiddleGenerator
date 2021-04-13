@@ -32,11 +32,11 @@ class RiddleRepository:
                 row = row.replace("\n", "")
                 parts = row.split(";")
 
-                riddle_id = parts[0]
+                id = parts[0]
                 content = parts[1]
                 
                 riddles.append(
-                    Riddle(riddle_id, content)
+                    Riddle(id, content)
                 )
 
         return riddles
@@ -54,4 +54,4 @@ class RiddleRepository:
 
 dirname = os.path.dirname(__file__)
 
-riddle_repository = RiddleRepository(os.path.join(dirname, "..", "data", "riddles.csv"))
+riddle_repository = RiddleRepository(os.path.join("data", "riddles.csv"))
