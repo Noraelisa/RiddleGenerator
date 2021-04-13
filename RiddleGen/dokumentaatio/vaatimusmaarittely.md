@@ -10,3 +10,7 @@ RiddleGen on oiva tapa kehittää loogista päättelykykyä sekä RiddleGenissä
 - Käyttäjä voi arpoa arvoitusgeneraattoria käyttämällä itselleen arvoituksen ja vastata tähän
 - Sovellus kertoo käyttäjälle, että oliko vastaus oikein vai väärin
 - Käyttäjä voi myös lisätä itse arvoituksen ja tähän sopivan vastauksen
+
+## Jatkokehitysideat
+
+- Kirjautuminen ja käyttäjätunnuksen luonti, jos haluaa itse kirjoittaa arvoituksia
