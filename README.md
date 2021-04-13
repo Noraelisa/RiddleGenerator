@@ -1,6 +1,8 @@
 # ot-harjoitustyo
 
-## Projekti
+## RiddleGen
+
+RiddleGen on arvoitusgeneraattori, joka arpoo käyttäjälle arvoituksen, johon käyttäjä vastaa. Käyttäjä saa tietää onko vastaus oikein vai väärin. Käyttäjällä on myös mahdollisuus lisätä itse arvoituksia arvoitusgeneraattoriin. RiddleGeniin on lisätty valmiiksi arvoituksia, jotka arvotaan käyttäjälle satunnaisesti. 
 
 ### Dokumentaatio
 
@@ -8,19 +10,10 @@
 
 - [Vaatimusmäärittely](https://github.com/Noraelisa/ot-harjoitustyo/blob/main/RiddleGen/dokumentaatio/vaatimusmaarittely.md)
 
-## Laskarit
+### Projektin eteneminen
 
-### viikko1
+- Projekti on aloitettu ja sille on luotu perusta. 
+- Graaffistakäyttöliittymää on aloitettu ja se löytyy ui.py tiedostosta. 
+- Tietokantayhteyden luonti on aloitettu ja valmiita arvoituksia on alettu lisäämään. Yhteys ei toimi vielä oikein.
+- Testien teko ei vielä onnistunut, sillä en saanut projektin toimintoja toimimaan ajallaan.
 
-- [gitlog.txt](https://github.com/Noraelisa/ot-harjoitustyo/blob/main/laskarit/viikko1/gitlog.txt)
-
-- [komentorivi.txt](https://github.com/Noraelisa/ot-harjoitustyo/blob/main/laskarit/viikko1/komentorivi.txt)
-
-### viikko2    
-
-- [maksukortti](https://github.com/Noraelisa/ot-harjoitustyo/tree/main/laskarit/viikko2/maksukortti)
-
-- [unicafe](https://github.com/Noraelisa/ot-harjoitustyo/tree/main/laskarit/viikko2/unicafe)
-
-- [Testikattavuus](https://github.com/Noraelisa/ot-harjoitustyo/blob/main/laskarit/viikko2/testikattavuus_vk2.png)
-    
