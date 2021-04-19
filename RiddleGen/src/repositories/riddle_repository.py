@@ -17,7 +17,10 @@ class RiddleRepository:
 
         self._write(riddles)
 
-        return riddle    
+        return riddle 
+
+    def delete_all(self):
+        self._write([])       
 
     def _ensure_file_exists(self):
         Path(self._file_path).touch()
@@ -34,9 +37,10 @@ class RiddleRepository:
 
                 id = parts[0]
                 content = parts[1]
+                answer = parts[2]
                 
                 riddles.append(
-                    Riddle(id, content)
+                    Riddle(id, content, answer)
                 )
 
         return riddles
@@ -47,11 +51,8 @@ class RiddleRepository:
         with open(self._file_path, "w") as file:
             for riddle in riddles:
            
-                row = f"{riddle.id};{riddle.content}"
+                row = f"{riddle.id};{riddle.content};{riddle.answer}"
 
                 file.write(row+"\n")    
-
-
-dirname = os.path.dirname(__file__)
 
 riddle_repository = RiddleRepository(os.path.join("data", "riddles.csv"))
