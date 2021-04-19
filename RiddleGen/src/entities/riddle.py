@@ -2,15 +2,14 @@ import uuid
 
 class Riddle:
 
-    def __init__(self, content, answer, id=None):
+    def __init__(self, content, answer, riddle_id=None):
 
         self.content = content
         self.answer = answer
-        self.id = id or str(uuid.uuid4())
+        self.riddle_id = riddle_id or str(uuid.uuid4())
 
     def __str__(self):
-        return str(self.answer)
+        return str(self.content) + str(self.answer)
 
     def __repr__(self):
         return str(self)
- 
