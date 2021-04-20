@@ -40,7 +40,7 @@ class RiddleRepository:
                 answer = parts[2]
 
                 riddles.append(
-                    Riddle(content + " Answer is " + answer, ", id: " + riddle_id)
+                    Riddle(content, answer, riddle_id)
                 )
 
         return riddles

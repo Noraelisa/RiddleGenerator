@@ -14,9 +14,7 @@ class TestRiddleRepository(unittest.TestCase):
 
         self.assertEqual(len(riddles), 1)
         self.assertEqual(riddles[0].content + riddles[0].answer,
-                        self.riddle_test_one.content +
-                        " Answer is " + self.riddle_test_one.answer +
-                        ", id: " + self.riddle_test_one.riddle_id)
+                        self.riddle_test_one.content + self.riddle_test_one.answer)
 
     def test_find_all(self):
         riddle_repository.create(self.riddle_test_one)
@@ -26,11 +24,8 @@ class TestRiddleRepository(unittest.TestCase):
 
         self.assertEqual(len(riddles), 2)
         self.assertEqual(riddles[0].content + riddles[0].answer,
-                        self.riddle_test_one.content +
-                        " Answer is " + self.riddle_test_one.answer +
-                        ", id: " + self.riddle_test_one.riddle_id)
+                        self.riddle_test_one.content + self.riddle_test_one.answer)
+                                              
         self.assertEqual(riddles[1].content + riddles[1].answer,
-                        self.riddle_test_two.content +
-                        " Answer is " + self.riddle_test_two.answer +
-                        ", id: " + self.riddle_test_two.riddle_id)
-                        
+                        self.riddle_test_two.content + self.riddle_test_two.answer)
+                      
