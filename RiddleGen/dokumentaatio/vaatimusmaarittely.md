@@ -7,6 +7,7 @@ RiddleGen on oiva tapa kehittää loogista päättelykykyä sekä RiddleGenissä
 
 ## Suunnitellut toiminnallisuudet
 
+- Käyttäjälle aukeaa ikkuna, missä käyttäjä voi painaa 
 - Käyttäjä voi arpoa arvoitusgeneraattoria käyttämällä itselleen arvoituksen ja vastata tähän
 - Sovellus kertoo käyttäjälle, että oliko vastaus oikein vai väärin
 - Käyttäjä voi myös lisätä itse arvoituksen ja tähän sopivan vastauksen
