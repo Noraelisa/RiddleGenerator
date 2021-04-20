@@ -13,6 +13,9 @@ def main():
 
     window.mainloop()
 
+if __name__ == '__main__':
+    main()    
+
 # sallitaan ylipitkät rivit tässä tapauksessa
 #riddle_repository.create(Riddle("What has roots as nobody sees, is taller than trees, up, up, up it goes, and yet, never grows?", "Mountain")) # pylint: disable=line-too-long
 #riddle_repository.create(Riddle("Thirty white horses on a red hill. First they champ,then they stamp, then they stand still.", "Teeth")) # pylint: disable=line-too-long
