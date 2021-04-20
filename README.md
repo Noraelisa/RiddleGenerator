@@ -32,7 +32,7 @@ RiddleGen on arvoitusgeneraattori, joka arpoo käyttäjälle arvoituksen, johon 
     - Testaaminen on aloitettu
     - Testien haarautumakattavuus on 47% tällä hetkellä
     - Sovellukselle pystytään generoimaan testikattavuusraportti
-    - Pylint on otettu käyttöön 
+    - Pylint on otettu käyttöön (10/10)
     - Alustava rakenne luotu
     
   
