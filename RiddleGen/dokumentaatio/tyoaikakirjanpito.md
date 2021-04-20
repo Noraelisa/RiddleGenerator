@@ -9,5 +9,5 @@
 |       | 6      | Tietokantayhteyden luominen |
 | 19.4  | 4      | Tietokantayhteyden korjaaminen |
 |       | 6      | Tietokantayhteyden edistämine sekä testien luominen |
-|  20.4 | 2      | Dokumentaation päivitys sekä kaavioiden luomista |
+| 20.4  | 2      | Dokumentaation päivitys sekä kaavioiden luomista |
 |  yht. | 29     | 
