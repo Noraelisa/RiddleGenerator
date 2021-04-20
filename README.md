@@ -14,7 +14,7 @@ RiddleGen on arvoitusgeneraattori, joka arpoo käyttäjälle arvoituksen, johon 
 
 ### Komentorivitoiminnot
   
-    - Ohjelmansuoritus: *poetry run invoke start*
+    - Ohjelmansuoritus: poetry run invoke start
     - Testaus: poetry run invoke test 
     - Testikattavuusraportin generointi: poetry run invoke coverage-report
     - Pylint tarkistukset: poetry run invoke lint
