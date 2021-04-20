@@ -38,9 +38,9 @@ class RiddleRepository:
                 riddle_id = parts[0]
                 content = parts[1]
                 answer = parts[2]
-                
+
                 riddles.append(
-                    Riddle(riddle_id, content, answer)
+                    Riddle(content + " Answer is " + answer, ", id: " + riddle_id)
                 )
 
         return riddles
@@ -50,9 +50,9 @@ class RiddleRepository:
 
         with open(self._file_path, "w") as file:
             for riddle in riddles:
-          
+
                 row = f"{riddle.riddle_id};{riddle.content};{riddle.answer}"
 
-                file.write(row+"\n")    
+                file.write(row+"\n")
 
 riddle_repository = RiddleRepository(os.path.join("data", "riddles.csv"))
