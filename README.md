@@ -10,6 +10,8 @@ RiddleGen on arvoitusgeneraattori, joka arpoo käyttäjälle arvoituksen, johon 
 
 - [Vaatimusmäärittely](https://github.com/Noraelisa/ot-harjoitustyo/blob/main/RiddleGen/dokumentaatio/vaatimusmaarittely.md)
 
+- [Arkkitehtuurikuvaus](https://github.com/Noraelisa/ot-harjoitustyo/blob/main/RiddleGen/dokumentaatio/arkkitehtuuri.md)
+
 ### Projektin eteneminen
 
 - Projekti on aloitettu ja sille on luotu perusta. 
