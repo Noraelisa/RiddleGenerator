@@ -30,6 +30,7 @@ RiddleGen on arvoitusgeneraattori, joka arpoo käyttäjälle arvoituksen, johon 
     - Tietokantayhteyden luonti on onnistunut ja yhteys toimii 
     - Valmiita arvoituksia ja niihin vastauksia on lisätty datahakemiston riddles.csv-tiedostoon
     - Testaaminen on aloitettu
+    - Testien haarautumakattavuus on 47% tällä hetkellä
     - Sovellukselle pystytään generoimaan testikattavuusraportti
     - Pylint on otettu käyttöön 
     - Alustava rakenne luotu
