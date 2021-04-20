@@ -12,16 +12,23 @@ RiddleGen on arvoitusgeneraattori, joka arpoo käyttäjälle arvoituksen, johon 
 
 - [Arkkitehtuurikuvaus](https://github.com/Noraelisa/ot-harjoitustyo/blob/main/RiddleGen/dokumentaatio/arkkitehtuuri.md)
 
+### Komentorivitoiminnot
+  
+    - Ohjelmansuoritus: poetry run invoke start
+    - Testaus: poetry run invoke test 
+    - Testikattavuusraportin generointi: poetry run invoke coverage-report
+    - Pylint tarkistukset: poetry run invoke lint
+
 ### Projektin eteneminen
 
-  # Viikko 3
+  ## Viikko 3
 
     - Projekti on aloitettu ja sille on luotu perusta 
     - Graaffistakäyttöliittymää on aloitettu ja se löytyy ui.py tiedostosta
     - Tietokantayhteyden luonti on aloitettu ja valmiita arvoituksia on alettu lisäämään. Yhteys ei toimi vielä oikein
     - Testien teko ei vielä onnistunut, sillä en saanut projektin toimintoja toimimaan ajallaan
 
-  # Viikko 4
+  ## Viikko 4
   
     - Viime viikosta projekti on edennyt hyvin ja sovellusta on laajennettu
     - Graaffistakäyttöliittymää on aloitettu ja se löytyy ui-hakemistosta
@@ -34,8 +41,6 @@ RiddleGen on arvoitusgeneraattori, joka arpoo käyttäjälle arvoituksen, johon 
     - Sovellukselle pystytään generoimaan testikattavuusraportti
     - Pylint on otettu käyttöön (10/10)
     - Alustava rakenne luotu
-    
-  
-  
+
   
 
