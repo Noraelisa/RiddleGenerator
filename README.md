@@ -25,6 +25,7 @@ RiddleGen on arvoitusgeneraattori, joka arpoo käyttäjälle arvoituksen, johon 
   
     - Viime viikosta projekti on edennyt hyvin ja sovellusta on laajennettu
     - Graaffistakäyttöliittymää on aloitettu ja se löytyy ui-hakemistosta
+    - Pääikkuna on luotu ja sen voi avata poetry run invoke start-komennolla
     - Käyttäjälle myös aukeaa ensimmäinen ikkuna
     - Tietokantayhteyden luonti on onnistunut ja yhteys toimii 
     - Valmiita arvoituksia ja niihin vastauksia on lisätty datahakemiston riddles.csv-tiedostoon
@@ -32,6 +33,7 @@ RiddleGen on arvoitusgeneraattori, joka arpoo käyttäjälle arvoituksen, johon 
     - Sovellukselle pystytään generoimaan testikattavuusraportti
     - Pylint on otettu käyttöön 
     - Alustava rakenne luotu
+    
   
   
   
