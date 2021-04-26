@@ -43,5 +43,9 @@ RiddleGen on arvoitusgeneraattori, joka arpoo käyttäjälle arvoituksen, johon 
     - Pylint on otettu käyttöön (10/10)
     - Alustava rakenne luotu
 
+  ## Viikko 5
+  
+  - [GitHub release](https://github.com/Noraelisa/ot-harjoitustyo/releases/tag/viikko5)
+
   
 
