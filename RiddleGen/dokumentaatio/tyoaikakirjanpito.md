@@ -10,4 +10,5 @@
 | 19.4  | 4      | Tietokantayhteyden korjaaminen |
 |       | 6      | Tietokantayhteyden edistämine sekä testien luominen |
 | 20.4  | 2      | Dokumentaation päivitys sekä kaavioiden luomista |
-|  yht. | 29     | 
+| 26.4  | 4      | Graafisenkäyttöliittymän laajentaminen |
+|  yht. | 33     | 

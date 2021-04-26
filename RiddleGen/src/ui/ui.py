@@ -1,31 +1,54 @@
-from tkinter import ttk, constants
+from ui.main_view import MainView
+from ui.guess_riddle_view import GuessView
+from ui.write_riddle_view import WriteView
 
 class UI:
     def __init__(self, root):
         self._root = root
+        self._current_view = None
 
     def start(self):
-        welcome_label = ttk.Label(master=self._root,
-                                text="I am a Riddler Generator, Welcome!")
-        info_label = ttk.Label(master=self._root,
-                                text="Here you can make your own riddle and become a true riddler")
-        riddle_entry = ttk.Entry(master=self._root)
-        send_button = ttk.Button(master=self._root, text="Send")
+        self._show_main_view()
 
-        welcome_label.grid(columnspan=2,
-                            sticky=constants.S,
-                            padx=5, pady=5)
-        info_label.grid(columnspan=2,
-                            row=1, column=0,
-                            sticky=(constants.S),
-                            padx=5, pady=5)
-        riddle_entry.grid(columnspan=2,
-                            row=2, column=0,
-                            sticky=(constants.S), padx=5,
-                            pady=5, ipadx=50)
-        send_button.grid(row=3, column=0,
-                            columnspan=2,
-                            sticky=(constants.S),
-                            padx=5, pady=5)
+    def _hide_current_view(self):
+        if self._current_view:
+            self._current_view.destroy()
 
-        self._root.grid_columnconfigure(1, weight=1, minsize=500)
+        self._current_view = None
+
+    def _handle_riddle_write(self):
+        self._show_write_view()
+
+    def _handle_riddle_guess(self):
+        self._show_guess_view()
+
+    def _show_write_view(self):
+        self._hide_current_view()
+
+        self._current_view = WriteView(
+            self._root,
+            self._show_main_view
+        )
+
+        self._current_view.pack()
+
+    def _show_guess_view(self):
+        self._hide_current_view()
+
+        self._current_view = GuessView(
+            self._root,
+            self._show_main_view
+        )
+
+        self._current_view.pack()
+
+    def _show_main_view(self):
+        self._hide_current_view()
+
+        self._current_view = MainView(
+            self._root,
+            self._handle_riddle_write,
+            self._handle_riddle_guess
+        )
+
+        self._current_view.pack()
