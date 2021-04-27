@@ -76,8 +76,8 @@ class GuessView:
 
     def _initialize(self):
         self._frame = ttk.Frame(master=self._root)
-        riddle_label = ttk.Label(master=self._frame,
-                                text="Riddle from db comes here...")
+        self._riddle_list_frame = ttk.Frame(master=self._frame)
+
 
         self._initialize_riddle_list()
         self._initialize_riddle_answer_field()
@@ -86,7 +86,7 @@ class GuessView:
                                 text="Guess",
                                 command=self._handle_answer_view)
 
-        riddle_label.grid(row=3, column=0,
+        self._riddle_list_frame.grid(row=3, column=0,
                             columnspan=2,
                             sticky=constants.S,
                             padx=5, pady=5)
@@ -95,4 +95,4 @@ class GuessView:
                             sticky=(constants.S),
                             padx=5, pady=5)
 
-        self._root.grid_columnconfigure(1, weight=1, minsize=500)
+        self._frame.grid_columnconfigure(1, weight=1, minsize=500)
