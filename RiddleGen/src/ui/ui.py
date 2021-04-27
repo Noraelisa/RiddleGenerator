@@ -1,6 +1,7 @@
 from ui.main_view import MainView
 from ui.guess_riddle_view import GuessView
 from ui.write_riddle_view import WriteView
+from ui.answer_riddle_view import AnswerView
 
 class UI:
     def __init__(self, root):
@@ -36,6 +37,16 @@ class UI:
         self._hide_current_view()
 
         self._current_view = GuessView(
+            self._root,
+            self._show_answer_view
+        )
+
+        self._current_view.pack()
+
+    def _show_answer_view(self):
+        self._hide_current_view()
+
+        self._current_view = AnswerView(
             self._root,
             self._show_main_view
         )
