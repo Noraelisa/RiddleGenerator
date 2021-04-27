@@ -46,14 +46,15 @@ RiddleGen on arvoitusgeneraattori, joka arpoo käyttäjälle arvoituksen, johon 
   ## Viikko 5
   
   - [GitHub release](https://github.com/Noraelisa/ot-harjoitustyo/releases/tag/viikko5)
-  - Graafistakäyttöliittymää on laajennettu useaan näkymään
-  - Poistettu aloitettu yhteys sqliteen ja korjattu riddle.csv-tiedoston yhteys
-  - Sovelluslogiikka ja käyttöliittymä erotettu luomalla service-hakemisto
-  - Poistettu .gitignoresta pytest.ini-tiedosto, joten yhteys .env-tiedostoon näkyy
-  - Pylint 9.86/10
-  - Testien haarautumakattavuus on 94% tällä hetkellä
-  - Sovellukselle pystytään generoimaan testikattavuusraportti
-  - Kerrosrakennetta muutettu service-tiedoston luomisen myötä
+   - Graafistakäyttöliittymää on laajennettu useaan näkymään
+   - Poistettu aloitettu yhteys sqliteen ja korjattu riddle.csv-tiedoston yhteys
+   - Sovelluslogiikka ja käyttöliittymä erotettu luomalla service-hakemisto
+   - Poistettu .gitignoresta pytest.ini-tiedosto, joten yhteys .env-tiedostoon näkyy
+   - Pylint 9.86/10
+   - Testien haarautumakattavuus on 94% tällä hetkellä
+   - Sovellukselle pystytään generoimaan testikattavuusraportti
+   - Kerrosrakennetta muutettu service-tiedoston luomisen myötä
+   - Issuet sallittu
 
   
 
