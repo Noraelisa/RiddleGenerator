@@ -11,4 +11,7 @@
 |       | 6      | Tietokantayhteyden edistämine sekä testien luominen |
 | 20.4  | 2      | Dokumentaation päivitys sekä kaavioiden luomista |
 | 26.4  | 4      | Graafisenkäyttöliittymän laajentaminen |
-|  yht. | 33     | 
+| 27.4  | 3      | Graafisenkäyttöliittymän laajentaminen |
+|       | 3      | Sovelluslogiikan eriyttäminen käyttöliittymästä |
+|       | 2      | Testien tekeminen|
+|  yht. | 41     | 
