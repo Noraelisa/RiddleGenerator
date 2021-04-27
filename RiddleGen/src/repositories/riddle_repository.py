@@ -1,4 +1,3 @@
-import os
 from pathlib import Path
 from config import RIDDLES_FILE_PATH
 from entities.riddle import Riddle

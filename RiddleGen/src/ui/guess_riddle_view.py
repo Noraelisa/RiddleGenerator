@@ -1,6 +1,5 @@
 from tkinter import ttk, constants
 from services.riddle_service import riddle_service
-import random
 
 class RiddleListView:
     def __init__(self, root, riddles):

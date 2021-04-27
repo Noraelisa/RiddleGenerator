@@ -1,5 +1,4 @@
 from tkinter import ttk, constants
-from services.riddle_service import riddle_service
 
 class AnswerView:
     def __init__(self, root, handle_main_view):
