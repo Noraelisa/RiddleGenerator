@@ -1,5 +1,6 @@
 import os
 from pathlib import Path
+from config import RIDDLES_FILE_PATH
 from entities.riddle import Riddle
 
 class RiddleRepository:
@@ -55,4 +56,4 @@ class RiddleRepository:
 
                 file.write(row+"\n")
 
-riddle_repository = RiddleRepository(os.path.join("data", "riddles.csv"))
+riddle_repository = RiddleRepository(RIDDLES_FILE_PATH)
