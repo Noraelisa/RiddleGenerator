@@ -52,7 +52,9 @@ class GuessView:
         self._frame.destroy()
 
     def _initialize_riddle_list(self):
-        
+        if self._riddle_list_view:
+            self._riddle_list_view.destroy()
+
         riddles = riddle_service.get_riddles()
 
         self._riddle_list_view = RiddleListView(self._riddle_list_frame, riddles)
