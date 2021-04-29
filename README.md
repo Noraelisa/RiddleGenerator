@@ -11,7 +11,13 @@ RiddleGen on arvoitusgeneraattori, joka arpoo käyttäjälle arvoituksen, johon 
 - [Vaatimusmäärittely](https://github.com/Noraelisa/ot-harjoitustyo/blob/main/RiddleGen/dokumentaatio/vaatimusmaarittely.md)
 
 - [Arkkitehtuurikuvaus](https://github.com/Noraelisa/ot-harjoitustyo/blob/main/RiddleGen/dokumentaatio/arkkitehtuuri.md)
+- 
+### Asennus
 
+    - Huomioi, että olet RiddleGen-hakemistossa
+    - Riippuvuuksien asentaminen: poetry install
+    - Sovellus käynnistyy: poetry run invoke start
+     
 ### Komentorivitoiminnot
   
     - Ohjelmansuoritus: poetry run invoke start
