@@ -47,7 +47,7 @@ class RiddleService:
         Returns:
             Palauttaa tietokantaan lisätyn arvoituksen Riddle-oliona
         """
-            
-        return self._riddle_repository.get_riddle()    
+
+        return self._riddle_repository.get_riddle()
 
 riddle_service = RiddleService()
