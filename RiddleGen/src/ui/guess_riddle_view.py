@@ -2,9 +2,9 @@ from tkinter import ttk, constants
 from services.riddle_service import riddle_service
 
 class RiddleView:
-    def __init__(self, root, riddles):
+    def __init__(self, root, riddle):
         self._root = root
-        self._riddles = riddles
+        self._riddle = riddle
         self._frame = None
 
         self._initialize()
@@ -29,9 +29,7 @@ class RiddleView:
 
     def _initialize(self):
         self._frame = ttk.Frame(master=self._root)
-
-        for riddle in self._riddles:
-            self._initialize_riddle_item(riddle)
+        self._initialize_riddle_item(self._riddle)
 
 class RiddleListView:
     def __init__(self, root, riddles):
@@ -98,9 +96,9 @@ class GuessView:
         if self._riddle_view:
             self._riddle_view.destroy()
 
-        riddles = riddle_service.get_riddle()
+        riddle = riddle_service.get_riddle()
 
-        self._riddle_view = RiddleView(self._riddle_frame, riddles)
+        self._riddle_view = RiddleView(self._riddle_frame, riddle)
 
         self._riddle_view.pack()
 
@@ -119,22 +117,22 @@ class GuessView:
 
     def _initialize(self):
         self._frame = ttk.Frame(master=self._root)
-        self._riddle_list_frame = ttk.Frame(master=self._frame)
+        self._riddle_frame = ttk.Frame(master=self._frame)
 
-
-        self._initialize_riddle_list()
+        #self._initialize_riddle_list()
         self._initialize_riddle()
         self._initialize_riddle_answer_field()
 
         guess_button = ttk.Button(master=self._frame,
                                 text="Guess",
                                 command=self._handle_answer_view)
-
+        """
         self._riddle_list_frame.grid(row=3, column=0,
                             columnspan=2,
                             sticky=constants.S,
                             padx=5, pady=5)
-        self._riddle_frame.grid(row=3, column=0,
+        """
+        self._riddle_frame.grid(row=2, column=0,
                             columnspan=2,
                             sticky=constants.S,
                             padx=5, pady=5)
