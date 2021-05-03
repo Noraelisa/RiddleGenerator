@@ -10,8 +10,14 @@
 - Pakkaus services: sovelluslogiikkaan liittyvä koodi
 - Pakkaus repositories: tietojen pysyväistallennukseen liittyvä koodi
 - Pakkaus entities: luokka, joka kuvastaa sovelluksen käyttämää tietokohdetta
+- 
+#Luokkakaavio: Riddle
+
+- Kuvaa arvoituksen sisältöä, vastausta ja id:tä
 
 ![Luokkakaavio](./photos/Riddle_luokkakaavio.png)
+
+
 
 ![Sovelluslogiikka](./photos/RiddleGen_sovelluslogiikka2.png)
 ![Sekvenssikaavio](./photos/RiddleGen_sekvenssikaavio.png)
