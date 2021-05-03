@@ -5,4 +5,10 @@
 - Ensin asenna riippuvuudet komennolla:
 
 ```
-Poetry install
+poetry install
+```
+
+- Tämän jälkeen voit käynnistää sovelluksen komennolla:
+
+```
+poetry run invoke start
