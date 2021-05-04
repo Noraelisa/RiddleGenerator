@@ -74,6 +74,7 @@ RiddleGen on arvoitusgeneraattori, joka arpoo käyttäjälle arvoituksen, johon 
     - Alustava arkkitehtuurikuvaus luotu, lisätty sekvenssikaavio, mikä oli unohtunut viime viikolta
     - Alusta käyttöohje luotu
     - Luotu tyhjät __init__.py-tiedostot kaikkiin pakkauksiin ja päivitetty .coveragerc-tiedosto
+    - Testeihin lisätty get_riddle()-metodin testaus
 
   
 
