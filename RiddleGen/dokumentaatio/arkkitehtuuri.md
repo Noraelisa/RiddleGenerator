@@ -25,7 +25,7 @@
 
 ## Toiminnallisuudet
 
-- Arvoituksen luominen tapahtuu hypoteettisesti painamalla "Create"-nappia: 
+- Arvoituksen luominen tapahtuu painamalla "Create"-nappia: 
 
 ![Sekvenssikaavio](./photos/RiddleGen_sekvenssikaavio.png)
 
