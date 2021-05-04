@@ -12,6 +12,8 @@ RiddleGen on arvoitusgeneraattori, joka arpoo käyttäjälle arvoituksen, johon 
 
 - [Arkkitehtuurikuvaus](https://github.com/Noraelisa/ot-harjoitustyo/blob/main/RiddleGen/dokumentaatio/arkkitehtuuri.md)
 
+- [Käyttöohje](https://github.com/Noraelisa/ot-harjoitustyo/blob/main/RiddleGen/dokumentaatio/kayttoohje.md)
+
 ### Asennus
 
     - Huomioi, että olet RiddleGen-hakemistossa
@@ -64,6 +66,14 @@ RiddleGen on arvoitusgeneraattori, joka arpoo käyttäjälle arvoituksen, johon 
     - Tällä hetkellä sovellus tulostaa arvaus-näkymälle kaikki tietokannassa olevat arvoitukset
     - Sovelluksessa ei vielä pysty luomaan omia arvoituksia tai arvaamaan niitä
 - [GitHub release](https://github.com/Noraelisa/ot-harjoitustyo/releases/tag/viikko5)
+
+## Viikko 6
+
+    - Graafistakäyttöliittymää kehitetty eteenpäin, arvoitusten lisääminen onnistuu näkymästä
+    - Docstring aloitettu ja luotu pakkauksiin entities ja services
+    - Alustava arkkitehtuurikuvaus luotu, lisätty sekvenssikaavio, mikä oli unohtunut viime viikolta
+    - Alusta käyttöohje luotu
+    - Luotu tyhjät __init__.py-tiedostot kaikkiin pakkauksiin ja päivitetty .coveragerc-tiedosto
 
   
 
