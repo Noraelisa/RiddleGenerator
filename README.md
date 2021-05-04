@@ -79,7 +79,7 @@ RiddleGen on arvoitusgeneraattori, joka arpoo käyttäjälle arvoituksen, johon 
     - Arvoitusten arvausnäkymä korjattu, nyt get_random_riddle()-metodi arpoo näkyään yhden arvoituksen csv-tiedostosta
     - Tällä hetkellä sovelluksessa toimii arvoitusten luominen sekä random arvoituksen näyttö -> arvaus toiminnallisuus ei ole vielä käytössä
 
--[GitHub release 2](https://github.com/Noraelisa/ot-harjoitustyo/releases/tag/Viikko6)
+- [GitHub release 2](https://github.com/Noraelisa/ot-harjoitustyo/releases/tag/Viikko6)
     
 
   
