@@ -70,11 +70,14 @@ RiddleGen on arvoitusgeneraattori, joka arpoo käyttäjälle arvoituksen, johon 
 ## Viikko 6
 
     - Graafistakäyttöliittymää kehitetty eteenpäin, arvoitusten lisääminen onnistuu näkymästä
+    - Lisätty lisää arvoituksia riddles.csv-tiedostoon
     - Docstring aloitettu ja luotu pakkauksiin entities ja services
     - Alustava arkkitehtuurikuvaus luotu, lisätty sekvenssikaavio, mikä oli unohtunut viime viikolta
     - Alusta käyttöohje luotu
     - Luotu tyhjät __init__.py-tiedostot kaikkiin pakkauksiin ja päivitetty .coveragerc-tiedosto
     - Testeihin lisätty get_riddle()-metodin testaus
+    - Arvoitusten arvausnäkymä korjattu, nyt get_random_riddle()-metodi arpoo näkyään yhden arvoituksen csv-tiedostosta
+    
 
   
 
