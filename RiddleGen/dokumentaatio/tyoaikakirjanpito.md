@@ -16,5 +16,6 @@
 |       | 2      | Testien tekeminen|
 |  3.5  | 6      | Docstring ja graafisenkäyttöliittymän laajennus|
 |       | 2      | Arkkitehtuurikuvauksen ja käyttöohjeiden luominen|
-|  4.5  |        | README.md päivitys, sekä testien luontia|
-|  yht. | 49     | 
+|  4.5  | 4      | Randomointi sekä graafisenkäyttöliittymän korjailua|
+|       | 4      | README.md päivitys, sekä testien luontia|
+|  yht. | 57     | 

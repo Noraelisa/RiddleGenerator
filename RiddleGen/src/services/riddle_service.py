@@ -1,3 +1,4 @@
+import random
 from entities.riddle import Riddle
 
 from repositories.riddle_repository import (
@@ -49,5 +50,11 @@ class RiddleService:
         """
 
         return self._riddle_repository.get_riddle()
+
+    def get_random_riddle(self):
+        riddles = self._riddle_repository.find_all()
+        chosen_riddle = random.choice(list(riddles))
+
+        return chosen_riddle
 
 riddle_service = RiddleService()

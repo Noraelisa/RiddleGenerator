@@ -96,7 +96,7 @@ class GuessView:
         if self._riddle_view:
             self._riddle_view.destroy()
 
-        riddle = riddle_service.get_riddle()
+        riddle = riddle_service.get_random_riddle()
 
         self._riddle_view = RiddleView(self._riddle_frame, riddle)
 
