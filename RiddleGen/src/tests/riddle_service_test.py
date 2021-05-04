@@ -9,6 +9,9 @@ class FakeRiddleRepository:
     def find_all(self):
         return self.riddles
 
+    def get_riddle(self):
+        return self.riddles[0]
+
     def create(self, riddle):
         self.riddles.append(riddle)
 
@@ -46,3 +49,12 @@ class TestRiddleService(unittest.TestCase):
 
         self.assertEqual(all_riddles[1].content + all_riddles[1].answer,
                         self.riddle_test_four.content + self.riddle_test_four.answer)
+
+    def test_get_riddle(self):
+        self.riddle_service.create_riddle(self.riddle_test_three.content,
+                                        self.riddle_test_three.answer)
+
+        one_riddle = self.riddle_service.get_riddle()
+
+        self.assertEqual(one_riddle.content, self.riddle_test_three.content)
+        

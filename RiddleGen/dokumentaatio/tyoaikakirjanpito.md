@@ -14,4 +14,7 @@
 | 27.4  | 3      | Graafisenkäyttöliittymän laajentaminen |
 |       | 3      | Sovelluslogiikan eriyttäminen käyttöliittymästä |
 |       | 2      | Testien tekeminen|
-|  yht. | 41     | 
+|  3.5  | 6      | Docstring ja graafisenkäyttöliittymän laajennus|
+|       | 2      | Arkkitehtuurikuvauksen ja käyttöohjeiden luominen|
+|  4.5  |        | README.md päivitys, sekä testien luontia|
+|  yht. | 49     | 

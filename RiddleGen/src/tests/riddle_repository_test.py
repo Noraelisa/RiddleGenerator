@@ -28,4 +28,10 @@ class TestRiddleRepository(unittest.TestCase):
 
         self.assertEqual(riddles[1].content + riddles[1].answer,
                         self.riddle_test_two.content + self.riddle_test_two.answer)
-                      
+
+    def test_get_riddle(self):
+        riddle_repository.create(self.riddle_test_one)
+
+        riddle = riddle_repository.get_riddle()
+
+        self.assertEqual(riddle.content, self.riddle_test_one.content)
