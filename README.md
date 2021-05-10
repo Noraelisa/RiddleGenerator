@@ -14,6 +14,8 @@ RiddleGen on arvoitusgeneraattori, joka arpoo käyttäjälle arvoituksen, johon 
 
 - [Käyttöohje](https://github.com/Noraelisa/ot-harjoitustyo/blob/main/RiddleGen/dokumentaatio/kayttoohje.md)
 
+- [Testaus](https://github.com/Noraelisa/ot-harjoitustyo/blob/main/RiddleGen/dokumentaatio/testaus.md)
+
 ### Asennus
 
     - Huomioi, että olet RiddleGen-hakemistossa
