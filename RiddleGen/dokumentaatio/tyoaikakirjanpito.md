@@ -18,4 +18,5 @@
 |       | 2      | Arkkitehtuurikuvauksen ja käyttöohjeiden luominen|
 |  4.5  | 4      | Randomointi sekä graafisenkäyttöliittymän korjailua|
 |       | 4      | README.md päivitys, sekä testien luontia|
-|  yht. | 57     | 
+|  10.5 | 8      | Arvoituksen arvauksen luominen|
+|  yht. | 65     | 
