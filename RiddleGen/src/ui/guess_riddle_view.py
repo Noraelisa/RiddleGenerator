@@ -54,9 +54,9 @@ class GuessView:
         if self._riddle_view:
             self._riddle_view.destroy()
 
-        riddle = riddle_service.get_random_riddle()
+        self._current_riddle = riddle_service.get_random_riddle()
 
-        self._riddle_view = RiddleView(self._riddle_frame, riddle)
+        self._riddle_view = RiddleView(self._riddle_frame, self._current_riddle)
 
         self._riddle_view.pack()
 
@@ -74,7 +74,7 @@ class GuessView:
                             pady=5, ipadx=50)
 
     def _func_guess(self):
-        users_guess = riddle_service.guess_riddle(self._current_riddle, self._riddle_answer_entry)
+        users_guess = riddle_service.guess_riddle(self._current_riddle, self._riddle_answer_entry.get())
         if users_guess is True:
             return self._handle_correct_answer_view()
         else:
@@ -89,7 +89,7 @@ class GuessView:
 
         guess_button = ttk.Button(master=self._frame,
                                 text="Guess",
-                                command=self._func_guess())
+                                command=self._func_guess)
         self._riddle_frame.grid(row=2, column=0,
                             columnspan=2,
                             sticky=constants.S,
