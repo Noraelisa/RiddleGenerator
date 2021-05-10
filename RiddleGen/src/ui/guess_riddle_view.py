@@ -69,8 +69,6 @@ class GuessView:
         self._handle_answer_view = handle_answer_view
         self._frame = None
         self._riddle_answer_entry = None
-        self._riddle_list_frame = None
-        self._riddle_list_view = None
         self._riddle_frame = None
         self._riddle_view = None
 
@@ -81,16 +79,6 @@ class GuessView:
 
     def destroy(self):
         self._frame.destroy()
-
-    def _initialize_riddle_list(self):
-        if self._riddle_list_view:
-            self._riddle_list_view.destroy()
-
-        riddles = riddle_service.get_riddles()
-
-        self._riddle_list_view = RiddleListView(self._riddle_list_frame, riddles)
-
-        self._riddle_list_view.pack()
 
     def _initialize_riddle(self):
         if self._riddle_view:
@@ -119,19 +107,12 @@ class GuessView:
         self._frame = ttk.Frame(master=self._root)
         self._riddle_frame = ttk.Frame(master=self._frame)
 
-        #self._initialize_riddle_list()
         self._initialize_riddle()
         self._initialize_riddle_answer_field()
 
         guess_button = ttk.Button(master=self._frame,
                                 text="Guess",
                                 command=self._handle_answer_view)
-        """
-        self._riddle_list_frame.grid(row=3, column=0,
-                            columnspan=2,
-                            sticky=constants.S,
-                            padx=5, pady=5)
-        """
         self._riddle_frame.grid(row=2, column=0,
                             columnspan=2,
                             sticky=constants.S,

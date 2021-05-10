@@ -1,5 +1,6 @@
 import random
 from entities.riddle import Riddle
+from ui.guess_riddle_view import GuessView
 
 from repositories.riddle_repository import (
     riddle_repository as default_riddle_repository)
@@ -7,7 +8,6 @@ from repositories.riddle_repository import (
 class RiddleService:
     """Sovelluslogiikasta vastaava luokka.
     """
-
     def __init__(self, riddle_repository=default_riddle_repository):
         """Luokan konstruktori, joka luo uuden sovelluslogiikasta vastaavan palvelun.
 
@@ -56,5 +56,13 @@ class RiddleService:
         chosen_riddle = random.choice(list(riddles))
 
         return chosen_riddle
+
+    def guess_riddle(self):
+
+        chosen_riddle_guess = self.get_random_riddle()
+        if self._riddle_answer_entry.lower() == chosen_riddle_guess.answer.lower():
+            print("Correct, you are a true riddler")
+        else:
+            print("your answer was " + self._riddle_answer_entry + " and it is not correct")
 
 riddle_service = RiddleService()

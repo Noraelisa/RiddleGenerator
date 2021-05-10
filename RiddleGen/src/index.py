@@ -27,4 +27,5 @@ if __name__ == '__main__':
 #print(riddle_repository.find_all())
 #riddle_repository.delete_all()
 #print(riddle_repository.get_riddle())
-#print(riddle_service.get_random_riddle().content)
+#print(riddle_service.get_random_riddle().answer)
+#riddle_service.guess_riddle()

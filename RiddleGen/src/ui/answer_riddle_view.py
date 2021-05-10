@@ -19,7 +19,7 @@ class AnswerView:
         answer_label = ttk.Label(master=self._frame, text="Answer from db comes here...wrong/right")
 
         start_button = ttk.Button(master=self._frame,
-                                text="Go back to the start",
+                                text="Go back to the start and try again",
                                 command=self._handle_main_view)
 
         answer_label.grid(row=3, column=0,
