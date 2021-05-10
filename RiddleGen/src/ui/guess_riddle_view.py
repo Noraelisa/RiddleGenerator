@@ -74,7 +74,8 @@ class GuessView:
                             pady=5, ipadx=50)
 
     def _func_guess(self):
-        users_guess = riddle_service.guess_riddle(self._current_riddle, self._riddle_answer_entry.get())
+        users_guess = riddle_service.guess_riddle(self._current_riddle,
+                                            self._riddle_answer_entry.get())
         if users_guess is True:
             return self._handle_correct_answer_view()
         else:

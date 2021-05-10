@@ -16,7 +16,8 @@ class CorrectAnswerView:
 
     def _initialize(self):
         self._frame = ttk.Frame(master=self._root)
-        answer_label = ttk.Label(master=self._frame, text="You are indeed a true Riddler, your answer was correct")
+        answer_label = ttk.Label(master=self._frame,
+                                text="You are indeed a true Riddler, your answer was correct")
 
         start_button = ttk.Button(master=self._frame,
                                 text="Go back to the start",
