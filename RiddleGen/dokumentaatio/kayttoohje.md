@@ -21,6 +21,18 @@ poetry run invoke start
 
 ![WriteView](./photos/RiddleGen_WriteView.png)
 
-- "Guess a riddle here"-napista voi siirtyä seuraavaan näkymään arvaamaan arvoitusta (arvaaminen ei ole vielä toiminnassa)
+- "Guess a riddle here"-napista voi siirtyä seuraavaan näkymään arvaamaan arvoitusta
 
 ![GuessView](./photos/RiddleGen_GuessView.png)
+
+- Jos arvoitus arvataan oikein, siirtyy näkymä seuraavaan
+
+![CorrectView](./photos/RiddleGen_correct.png)
+
+ - Jonka jälkeen "Go back to the start"-nappi vie aloitusnäkymään
+
+- Jos arvoituksen arvaus osoittautuu vääräksi, siirtyy näkymä seuraavaan
+
+![IncorrectView](./photos/RiddleGen_incorrect.png)
+
+ - Jonks jälkeen "Go back to the start and try again"-nappi vie aloitusnäkymään
