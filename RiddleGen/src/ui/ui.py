@@ -3,7 +3,6 @@ from ui.guess_riddle_view import GuessView
 from ui.write_riddle_view import WriteView
 from ui.answer_correct_view import CorrectAnswerView
 from ui.answer_incorrect_view import IncorrectAnswerView
-from services.riddle_service import riddle_service
 
 class UI:
     def __init__(self, root):
@@ -40,11 +39,7 @@ class UI:
 
         self._current_view = GuessView(
             self._root,
-            self._show_correct_answer_view
-        )
-
-        self._current_view = GuessView(
-            self._root,
+            self._show_correct_answer_view,
             self._show_incorrect_answer_view
         )
 
