@@ -32,9 +32,10 @@ class RiddleView:
         self._initialize_riddle_item(self._riddle)
 
 class GuessView:
-    def __init__(self, root, handle_answer_view):
+    def __init__(self, root, handle_correct_answer_view, handle_incorrect_answer_view):
         self._root = root
-        self._handle_answer_view = handle_answer_view
+        self._handle_correct_answer_view = handle_correct_answer_view
+        self._handle_incorrect_answer_view = handle_incorrect_answer_view
         self._frame = None
         self._riddle_answer_entry = None
         self._riddle_frame = None
@@ -73,10 +74,11 @@ class GuessView:
                             pady=5, ipadx=50)
 
     def _func_guess(self):
-        riddle_service.guess_riddle(self._current_riddle, self._riddle_answer_entry)
-
-    def _func_answer(self):
-        self._handle_answer_view()
+        users_guess = riddle_service.guess_riddle(self._current_riddle, self._riddle_answer_entry)
+        if users_guess is True:
+            return self._handle_correct_answer_view()
+        else:
+            return self._handle_incorrect_answer_view()
 
     def _initialize(self):
         self._frame = ttk.Frame(master=self._root)
@@ -87,7 +89,7 @@ class GuessView:
 
         guess_button = ttk.Button(master=self._frame,
                                 text="Guess",
-                                command=lambda:[self._func_guess(), self._func_answer()])
+                                command=self._func_guess())
         self._riddle_frame.grid(row=2, column=0,
                             columnspan=2,
                             sticky=constants.S,

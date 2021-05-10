@@ -1,6 +1,6 @@
 from tkinter import ttk, constants
 
-class AnswerView:
+class IncorrectAnswerView:
     def __init__(self, root, handle_main_view):
         self._root = root
         self._handle_main_view= handle_main_view
@@ -16,7 +16,7 @@ class AnswerView:
 
     def _initialize(self):
         self._frame = ttk.Frame(master=self._root)
-        answer_label = ttk.Label(master=self._frame, text="Answer from db comes here...wrong/right")
+        answer_label = ttk.Label(master=self._frame, text="Your answer was incorrect")
 
         start_button = ttk.Button(master=self._frame,
                                 text="Go back to the start and try again",
