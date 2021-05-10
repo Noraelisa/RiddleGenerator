@@ -31,38 +31,6 @@ class RiddleView:
         self._frame = ttk.Frame(master=self._root)
         self._initialize_riddle_item(self._riddle)
 
-class RiddleListView:
-    def __init__(self, root, riddles):
-        self._root = root
-        self._riddles = riddles
-        self._frame = None
-
-        self._initialize()
-
-    def pack(self):
-        self._frame.pack(fill=constants.X)
-
-    def destroy(self):
-        self._frame.destroy()
-
-    def _initialize_riddle_item(self, riddle):
-        riddle_frame = ttk.Frame(master=self._frame)
-        riddle_label = ttk.Label(master=riddle_frame, text=riddle.content)
-
-        riddle_label.grid(row=4, column=0,
-                            columnspan=2,
-                            sticky=constants.S,
-                            padx=5, pady=5)
-
-        riddle_frame.grid_columnconfigure(0, weight=1)
-        riddle_frame.pack(fill=constants.X)
-
-    def _initialize(self):
-        self._frame = ttk.Frame(master=self._root)
-
-        for riddle in self._riddles:
-            self._initialize_riddle_item(riddle)
-
 class GuessView:
     def __init__(self, root, handle_answer_view):
         self._root = root
@@ -71,6 +39,7 @@ class GuessView:
         self._riddle_answer_entry = None
         self._riddle_frame = None
         self._riddle_view = None
+        self._current_riddle = riddle_service.get_random_riddle()
 
         self._initialize()
 
@@ -103,6 +72,12 @@ class GuessView:
                             sticky=(constants.S), padx=5,
                             pady=5, ipadx=50)
 
+    def _func_guess(self):
+        riddle_service.guess_riddle(self._current_riddle, self._riddle_answer_entry)
+
+    def _func_answer(self):
+        self._handle_answer_view()
+
     def _initialize(self):
         self._frame = ttk.Frame(master=self._root)
         self._riddle_frame = ttk.Frame(master=self._frame)
@@ -112,7 +87,7 @@ class GuessView:
 
         guess_button = ttk.Button(master=self._frame,
                                 text="Guess",
-                                command=self._handle_answer_view)
+                                command=lambda:[self._func_guess(), self._func_answer()])
         self._riddle_frame.grid(row=2, column=0,
                             columnspan=2,
                             sticky=constants.S,

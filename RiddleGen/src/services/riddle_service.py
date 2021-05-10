@@ -1,6 +1,5 @@
 import random
 from entities.riddle import Riddle
-from ui.guess_riddle_view import GuessView
 
 from repositories.riddle_repository import (
     riddle_repository as default_riddle_repository)
@@ -57,12 +56,10 @@ class RiddleService:
 
         return chosen_riddle
 
-    def guess_riddle(self):
-
-        chosen_riddle_guess = self.get_random_riddle()
-        if self._riddle_answer_entry.lower() == chosen_riddle_guess.answer.lower():
-            print("Correct, you are a true riddler")
+    def guess_riddle(self, riddle, guess):
+        if guess.lower() == riddle.answer.lower():
+            return True
         else:
-            print("your answer was " + self._riddle_answer_entry + " and it is not correct")
+            return False
 
 riddle_service = RiddleService()
