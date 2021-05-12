@@ -23,7 +23,7 @@ poetry run invoke start
 
 - "Guess a riddle here"-napista voi siirtyä seuraavaan näkymään arvaamaan arvoitusta
 
-![GuessView](./photos/RiddleGen_GuessView.png)
+![GuessView](./photos/RiddleGen_updatedanswer.png)
 
 - Jos arvoitus arvataan oikein, siirtyy näkymä seuraavaan
 
