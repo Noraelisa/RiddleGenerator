@@ -25,7 +25,7 @@ poetry run invoke start
 
 ![GuessView](./photos/RiddleGen_GuessView.png)
 
-- Jos arvoitus on liian vaikea, on mahdollisuus saada vinkki "Hint"-napista. Nappi tulostaa käyttäjän näkymään arvoituksen ensimmäisen kirjaimen
+- Jos arvoitus on liian vaikea, on mahdollisuus saada yksi vinkki "Hint"-napista. Nappi tulostaa käyttäjän näkymään arvoituksen ensimmäisen kirjaimen
 
 ![HintView](./photos/RiddleGen_GuessView_hint.png)
 
@@ -33,10 +33,12 @@ poetry run invoke start
 
 ![CorrectView](./photos/RiddleGen_correct.png)
 
- - Jonka jälkeen "Go back to the start"-nappi vie aloitusnäkymään
+- Jonka jälkeen "Go back to the start"-nappi vie aloitusnäkymään
 
 - Jos arvoituksen arvaus osoittautuu vääräksi, siirtyy näkymä seuraavaan
 
 ![IncorrectView](./photos/RiddleGen_incorrect.png)
 
  - Jonka jälkeen "Go back to the start and try again"-nappi vie aloitusnäkymään
+
+ - Jos käyttäjä ei arvaa arvoitusta oikein, sovellus ei missään vaiheessa myöskään paljasta arvoitusta. Vain, että onko vastaus oikein vai väärin.
