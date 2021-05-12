@@ -81,6 +81,18 @@ class GuessView:
         else:
             return self._handle_incorrect_answer_view()
 
+    def _func_hint(self):
+        riddle_hint_text = ttk.Label(master=self._frame, text="The first letter is:")
+        riddle_hint = ttk.Label(master=self._frame, text=self._current_riddle.answer[0])
+        riddle_hint_text.grid(row=8, column=0,
+                            columnspan=2,
+                            sticky=constants.S,
+                            padx=5, pady=5)
+        riddle_hint.grid(row=9, column=0,
+                            columnspan=2,
+                            sticky=constants.S,
+                            padx=5, pady=5)
+
     def _initialize(self):
         self._frame = ttk.Frame(master=self._root)
         self._riddle_frame = ttk.Frame(master=self._frame)
@@ -97,11 +109,18 @@ class GuessView:
         guess_button = ttk.Button(master=self._frame,
                                 text="Guess",
                                 command=self._func_guess)
+        hint_button = ttk.Button(master=self._frame,
+                                text="Hint",
+                                command=self._func_hint)
         self._riddle_frame.grid(row=2, column=0,
                             columnspan=2,
                             sticky=constants.S,
                             padx=5, pady=5)
         guess_button.grid(row=6, column=0,
+                            columnspan=2,
+                            sticky=(constants.S),
+                            padx=5, pady=5)
+        hint_button.grid(row=7, column=0,
                             columnspan=2,
                             sticky=(constants.S),
                             padx=5, pady=5)
