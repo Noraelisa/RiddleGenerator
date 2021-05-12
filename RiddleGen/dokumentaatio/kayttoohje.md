@@ -23,7 +23,11 @@ poetry run invoke start
 
 - "Guess a riddle here"-napista voi siirtyä seuraavaan näkymään arvaamaan arvoitusta
 
-![GuessView](./photos/RiddleGen_updatedanswer.png)
+![GuessView](./photos/RiddleGen_GuessView.png)
+
+- Jos arvoitus on liian vaikea, on mahdollisuus saada vinkki "Hint"-napista. Nappi tulostaa käyttäjän näkymään arvoituksen ensimmäisen kirjaimen
+
+![HintView](./photos/RiddleGen_GuessView_hint.png)
 
 - Jos arvoitus arvataan oikein, siirtyy näkymä seuraavaan
 
