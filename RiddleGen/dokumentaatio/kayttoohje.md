@@ -25,6 +25,8 @@ poetry run invoke start
 
 ![GuessView](./photos/RiddleGen_GuessView.png)
 
+- Arvoituksen vastaus kirjoitetaan tekstikenttään ja arvaus lähetetään painamalla "Guess"-nappia
+- Jos "Guess"-nappia painaa ilman, että on syöttänyt tekstikenttään mitään, niin sovellus lataa näkymän uudelleen ja arvoitus vaihtuu toiseen
 - Jos arvoitus on liian vaikea, on mahdollisuus saada yksi vinkki "Hint"-napista. Nappi tulostaa käyttäjän näkymään arvoituksen ensimmäisen kirjaimen
 
 ![HintView](./photos/RiddleGen_GuessView_hint.png)
