@@ -32,7 +32,8 @@ class RiddleView:
         self._initialize_riddle_item(self._riddle)
 
 class GuessView:
-    def __init__(self, root, handle_correct_answer_view, handle_incorrect_answer_view):
+    def __init__(self, root, handle_correct_answer_view,
+                handle_incorrect_answer_view, handle_riddle_guess):
         self._root = root
         self._handle_correct_answer_view = handle_correct_answer_view
         self._handle_incorrect_answer_view = handle_incorrect_answer_view
@@ -41,6 +42,7 @@ class GuessView:
         self._riddle_frame = None
         self._riddle_view = None
         self._current_riddle = riddle_service.get_random_riddle()
+        self._handle_riddle_guess = handle_riddle_guess
 
         self._initialize()
 
@@ -76,7 +78,10 @@ class GuessView:
     def _func_guess(self):
         users_guess = riddle_service.guess_riddle(self._current_riddle,
                                             self._riddle_answer_entry.get())
-        if users_guess is True:
+
+        if len(self._riddle_answer_entry.get()) == 0:
+            return self._handle_riddle_guess()
+        elif users_guess is True:
             return self._handle_correct_answer_view()
         else:
             return self._handle_incorrect_answer_view()

@@ -40,7 +40,8 @@ class UI:
         self._current_view = GuessView(
             self._root,
             self._show_correct_answer_view,
-            self._show_incorrect_answer_view
+            self._show_incorrect_answer_view,
+            self._handle_riddle_guess
         )
 
         self._current_view.pack()
