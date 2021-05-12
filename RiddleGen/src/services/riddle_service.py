@@ -57,7 +57,7 @@ class RiddleService:
         return chosen_riddle
 
     def guess_riddle(self, riddle, guess):
-        if guess.lower() == riddle.answer.lower():
+        if guess.lower() in riddle.answer.lower():
             return True
         else:
             return False

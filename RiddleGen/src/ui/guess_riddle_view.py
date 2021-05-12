@@ -61,7 +61,7 @@ class GuessView:
         self._riddle_view.pack()
 
     def _initialize_riddle_answer_field(self):
-        riddle_label = ttk.Label(master=self._frame, text="Write your answer here. Remember to use correct articles (the, a/an).")
+        riddle_label = ttk.Label(master=self._frame, text="Write your answer here:")
         self._riddle_answer_entry = ttk.Entry(master=self._frame)
 
         riddle_label.grid(row=4, column=0,
@@ -88,6 +88,12 @@ class GuessView:
         self._initialize_riddle()
         self._initialize_riddle_answer_field()
 
+        riddle_label = ttk.Label(master=self._frame, text="The riddle:")
+
+        riddle_label.grid(row=0, column=0,
+                            columnspan=2,
+                            sticky=constants.S,
+                            padx=5, pady=5)
         guess_button = ttk.Button(master=self._frame,
                                 text="Guess",
                                 command=self._func_guess)
