@@ -39,4 +39,4 @@ poetry run invoke start
 
 ![IncorrectView](./photos/RiddleGen_incorrect.png)
 
- - Jonks jälkeen "Go back to the start and try again"-nappi vie aloitusnäkymään
+ - Jonka jälkeen "Go back to the start and try again"-nappi vie aloitusnäkymään
