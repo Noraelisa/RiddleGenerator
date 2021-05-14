@@ -51,12 +51,22 @@ class RiddleService:
         return self._riddle_repository.get_riddle()
 
     def get_random_riddle(self):
+        """Palauttaa satunnaisesti tietokannasta haetun arvoituksen.
+
+        Returns:
+            Palauttaa satunnaisesti tietokannasta haetun arvoituksen Riddle-oliona
+        """
         riddles = self._riddle_repository.find_all()
         chosen_riddle = random.choice(list(riddles))
 
         return chosen_riddle
 
     def guess_riddle(self, riddle, guess):
+        """Palauttaa arvatun vastauksen ja oikean vastauksen vertailun jälkeen True- tai False-arvon.
+
+        Returns:
+            Palauttaa True- tai False-arvon.
+        """
         if guess.lower() in riddle.answer.lower():
             return True
         else:
