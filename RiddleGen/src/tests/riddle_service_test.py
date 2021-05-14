@@ -57,4 +57,11 @@ class TestRiddleService(unittest.TestCase):
         one_riddle = self.riddle_service.get_riddle()
 
         self.assertEqual(one_riddle.content, self.riddle_test_three.content)
-        
+'''
+    def test_get_random_riddle(self):
+        self.assertRaises(
+            InvalidCredentials,
+            lambda: self.riddle_service.get_random_riddle())
+
+    def test_guess_riddle(self):
+'''
