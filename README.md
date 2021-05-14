@@ -31,6 +31,11 @@ RiddleGen on arvoitusgeneraattori, joka arpoo käyttäjälle arvoituksen, johon 
     
 - [Pylint määritelmät](https://github.com/Noraelisa/ot-harjoitustyo/blob/main/RiddleGen/.pylintrc)
 
+### Release
+
+- [GitHub release 1](https://github.com/Noraelisa/ot-harjoitustyo/releases/tag/viikko5)
+- [GitHub release 2](https://github.com/Noraelisa/ot-harjoitustyo/releases/tag/Viikko6)
+
 
 
   
